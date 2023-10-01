@@ -7,11 +7,12 @@ const config: Config = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    colors: {
-      dark: '#222',
-      gold: '#BDA17E'
-    },
     extend: {
+      colors: {
+        dark: '#222',
+        gold: '#BDA17E',
+        'light-gold': '#E5DDD2'
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
