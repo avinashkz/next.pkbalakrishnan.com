@@ -18,7 +18,13 @@ body {
 }
 
 @layer components {
+  .heading-1 {
+    @apply text-4xl pt-4 pb-2;
+  }
   .heading-2 {
-    @apply text-3xl pt-4;
+    @apply text-3xl pt-4 pb-2;
+  }
+  .heading-3 {
+    @apply text-2xl pt-4 pb-2 text-center;
   }
 }
