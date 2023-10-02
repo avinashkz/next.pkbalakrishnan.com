@@ -10,10 +10,10 @@ import { HiOutlineArrowsExpand } from "react-icons/hi"
 const Book = ({book}: { book: {id: string, title: string, cover: string, overview: string, link: string}}) => {
 
   return (
-    <div className='flex flex-col shrink-0 grow w-96 h-[620px] items-center space-y-5'>
+    <div className='flex flex-col shrink-0 grow w-60 h-[620px] items-center space-y-5'>
         <Image alt={book.title + 'Image'} src={book.cover} width={200} height={200}/>
         <h3 className='heading-3'>{book.title}</h3>
-        <p className='text-gray-400 text-center w-96'>{book.overview.slice(0,300)}</p>
+        <p className='text-gray-400 text-center w-72'>{book.overview.slice(0,250)}</p>
         <div className='flex !mt-auto space-x-16 text-gray-400'>
           <Link href={book.link} 
             target="_blank"

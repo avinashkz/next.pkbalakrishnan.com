@@ -42,8 +42,8 @@ export default function Home() {
             <hr />
             <div className='flex flex-wrap items-center justify-evenly w-full gap-5'>
               {gallery.map((image, index) => (
-                <div key={index} className='py-10 px-5 w-[370px] shrink-0 rounded-2xl bg-gold'> 
-                <Image  alt='' src={image} height={350} width={350} />
+                <div key={index} className='py-10 px-5 w-[300px] shrink-0 rounded-2xl bg-gold'> 
+                <Image  alt='' src={image} height={300} width={300} />
                 </div>
               ))}
             </div>
