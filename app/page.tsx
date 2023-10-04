@@ -13,6 +13,7 @@ export default function Home() {
   return (
     <div>
       <div className='relative h-[calc(100vh-48px)] w-full'>
+        <span className='relative z-[1] flex justify-center items-end pb-14 h-[calc(100vh-48px)] text-5xl text-white'>Critic. Historian. Novelist. Journalist</span>
         <Image alt="Cover Image" src="/header.jpg" fill className='object-cover'/>
       </div>
       <div className='flex flex-col items-center bg-gold px-14 py-20 space-y-10'>
