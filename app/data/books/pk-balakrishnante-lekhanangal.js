@@ -71,15 +71,15 @@ const Contents = () => {
   );
 };
 const balakrishnanteLekhanangal = {
-  id: "pk-balakrishnante-lekhanangal",
-  title: "P K Balakrishnante Lekhanangal",
-  subtitle: "Category : COLLECTIONS & SELECTED WORKS",
+  id: 'pk-balakrishnante-lekhanangal',
+  title: 'P K Balakrishnante Lekhanangal',
+  subtitle: 'Category : COLLECTIONS & SELECTED WORKS',
   overview:
-    "The studies in this book were written over a span of 18 years from 1960. They were born out of a sense of duty impelled by the warmth of his personal affection.",
-  description: "",
-  link: "https://dcbookstore.com/books/p-k-balakrishnante-lekhanangal",
-  thumbnail: "/books-thumbnail/pk-balakrishnante-lekhanangal.jpg",
-  cover: "/books-cover/pk-balakrishnante-lekhanangal.jpg",
+    'The studies in this book were written over a span of 18 years from 1960. They were born out of a sense of duty impelled by the warmth of his personal affection.',
+  description: '',
+  link: 'https://dcbookstore.com/books/p-k-balakrishnante-lekhanangal',
+  thumbnail: '/books-thumbnail/pk-balakrishnante-lekhanangal.jpg',
+  cover: '/books-cover/pk-balakrishnante-lekhanangal.jpg',
   contents: Contents,
 };
 

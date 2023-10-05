@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-function About() { 
+function About() {
   return (
     <div className="text-justify bg-light-gold p-10">
       <h1 className="heading-1">Heart of a storm</h1>

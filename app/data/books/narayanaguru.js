@@ -84,15 +84,15 @@ const Contents = () => {
   );
 };
 const narayanaguru = {
-  id: "narayanaguru",
-  title: "Narayanaguru",
-  subtitle: "Category : COLLECTIONS & SELECTED WORKS",
+  id: 'narayanaguru',
+  title: 'Narayanaguru',
+  subtitle: 'Category : COLLECTIONS & SELECTED WORKS',
   overview:
-    "The book is a collection of essays on the great social reformer of Kerala and spiritual leader Sri. Narayana Guru published on the event of his birth centenary. It gives a rare insight into the person and activities of a visionary.",
-  description: "",
-  link: "https://dcbookstore.com/books/narayanaguru",
-  thumbnail: "/books-thumbnail/narayanaguru.jpg",
-  cover: "/books-cover/narayanaguru.jpg",
+    'The book is a collection of essays on the great social reformer of Kerala and spiritual leader Sri. Narayana Guru published on the event of his birth centenary. It gives a rare insight into the person and activities of a visionary.',
+  description: '',
+  link: 'https://dcbookstore.com/books/narayanaguru',
+  thumbnail: '/books-thumbnail/narayanaguru.jpg',
+  cover: '/books-cover/narayanaguru.jpg',
   contents: Contents,
 };
 

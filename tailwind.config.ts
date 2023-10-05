@@ -1,4 +1,4 @@
-import type { Config } from 'tailwindcss'
+import type { Config } from 'tailwindcss';
 
 const config: Config = {
   content: [
@@ -11,7 +11,7 @@ const config: Config = {
       colors: {
         dark: '#222',
         gold: '#BDA17E',
-        'light-gold': '#E5DDD2'
+        'light-gold': '#E5DDD2',
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
@@ -21,5 +21,5 @@ const config: Config = {
     },
   },
   plugins: [],
-}
-export default config
+};
+export default config;
