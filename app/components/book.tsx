@@ -26,10 +26,10 @@ const Book = ({
         height={200}
       />
       <h3 className="heading-3">{book.title}</h3>
-      <p className="w-72 text-center text-gray-400">
+      <p className="w-72 text-center text-gray-500">
         {book.overview.slice(0, 250)}
       </p>
-      <div className="!mt-auto flex space-x-16 text-gray-400">
+      <div className="!mt-auto flex space-x-16 text-gray-500">
         <Link href={book.link} target="_blank">
           <TiShoppingCart size={25} />
         </Link>
