@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 function Navbar() {
   return (
-    <div className="h-12 bg-dark text-gold flex justify-end text-lg font-bold">
+    <div className="flex h-12 justify-end bg-dark text-lg font-bold text-gold">
       <Link className="mr-auto p-3" href="/">
         P.K Balakrishnan
       </Link>

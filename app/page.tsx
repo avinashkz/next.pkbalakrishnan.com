@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <div>
       <div className="relative h-[calc(100vh-48px)] w-full">
-        <span className="relative z-[1] flex justify-center items-end pb-14 h-[calc(100vh-48px)] text-5xl text-white">
+        <span className="relative z-[1] flex h-[calc(100vh-48px)] items-end justify-center pb-14 text-5xl text-white">
           Critic. Historian. Novelist. Journalist
         </span>
         <Image
@@ -28,8 +28,8 @@ export default function Home() {
           className="object-cover"
         />
       </div>
-      <div className="flex flex-col items-center bg-gold px-14 py-20 space-y-10">
-        <h1 className="text-white text-4xl pb-6 font-bold">Heart Of A Storm</h1>
+      <div className="flex flex-col items-center space-y-10 bg-gold px-14 py-20">
+        <h1 className="pb-6 text-4xl font-bold text-white">Heart Of A Storm</h1>
         <p className="text-justify text-white">
           A powerhouse to be reckoned with in the intellectual space of Kerala,
           Balakrishnan was an author par excellence, a committed and daring
@@ -43,33 +43,33 @@ export default function Home() {
         </p>
         <Link
           href="/about"
-          className="bg-white p-4 font-bold rounded-full w-40 text-gold text-center"
+          className="w-40 rounded-full bg-white p-4 text-center font-bold text-gold"
         >
           KNOW MORE
         </Link>
       </div>
-      <div className="flex flex-col items-center px-14 py-20 space-y-10">
+      <div className="flex flex-col items-center space-y-10 px-14 py-20">
         <h1 className="pb-6 text-4xl font-bold">Featured Books</h1>
-        <div className="flex flex-wrap w-full gap-5">
+        <div className="flex w-full flex-wrap gap-5">
           {books.slice(0, 4).map((book) => (
             <Book key={book.id} book={book} />
           ))}
         </div>
         <Link
           href="/books"
-          className="bg-dark p-4 font-bold rounded-full w-40 text-gold text-center"
+          className="w-40 rounded-full bg-dark p-4 text-center font-bold text-gold"
         >
           MORE BOOKS
         </Link>
       </div>
-      <div className="flex flex-col items-center px-14 py-20 gap-10 bg-dark">
+      <div className="flex flex-col items-center gap-10 bg-dark px-14 py-20">
         <h1 className="pb-6 text-4xl font-bold text-gold">Gallery</h1>
         <hr />
-        <div className="flex flex-wrap items-center justify-evenly w-full gap-5">
+        <div className="flex w-full flex-wrap items-center justify-evenly gap-5">
           {gallery.map((image, index) => (
             <div
               key={index}
-              className="py-10 px-5 w-[300px] shrink-0 rounded-2xl bg-gold"
+              className="w-[300px] shrink-0 rounded-2xl bg-gold px-5 py-10"
             >
               <Image alt="" src={image} height={300} width={300} />
             </div>
@@ -77,14 +77,14 @@ export default function Home() {
         </div>
         <Link
           href="/gallery"
-          className="bg-gold p-4 font-bold rounded-full w-40 text-white text-center"
+          className="w-40 rounded-full bg-gold p-4 text-center font-bold text-white"
         >
           VIEW MORE
         </Link>
       </div>
       <div className="flex flex-col items-center px-14 py-20">
         <h1 className="heading-1">Get In Touch!</h1>
-        <hr className="h-1 w-10 bg-gold mt-5" />
+        <hr className="mt-5 h-1 w-10 bg-gold" />
         <div className="flex w-full justify-evenly pt-10">
           <div className="flex flex-col items-center">
             <FaRegEnvelope size={50} />

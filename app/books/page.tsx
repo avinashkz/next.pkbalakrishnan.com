@@ -4,7 +4,7 @@ import books from 'data/books/books';
 
 const Books = () => {
   return (
-    <div className="flex flex-wrap items-center w-full h-full px-14 py-20 gap-10">
+    <div className="flex h-full w-full flex-wrap items-center gap-10 px-14 py-20">
       {books.map((book) => (
         <Book key={book.id} book={book} />
       ))}

@@ -18,7 +18,7 @@ const Book = ({
   };
 }) => {
   return (
-    <div className="flex flex-col shrink-0 grow w-60 h-[620px] items-center space-y-5">
+    <div className="flex h-[620px] w-60 shrink-0 grow flex-col items-center space-y-5">
       <Image
         alt={book.title + 'Image'}
         src={book.cover}
@@ -26,10 +26,10 @@ const Book = ({
         height={200}
       />
       <h3 className="heading-3">{book.title}</h3>
-      <p className="text-gray-400 text-center w-72">
+      <p className="w-72 text-center text-gray-400">
         {book.overview.slice(0, 250)}
       </p>
-      <div className="flex !mt-auto space-x-16 text-gray-400">
+      <div className="!mt-auto flex space-x-16 text-gray-400">
         <Link href={book.link} target="_blank">
           <TiShoppingCart size={25} />
         </Link>

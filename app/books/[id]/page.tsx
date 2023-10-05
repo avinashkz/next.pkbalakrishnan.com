@@ -18,7 +18,7 @@ const Book = ({ params }: { params: { id: string } }) => {
   const book = getBookById(id);
 
   return (
-    <div className="p-14 bg-light-gold">
+    <div className="bg-light-gold p-14">
       <div className="flex gap-10">
         <Image alt="" src={book.cover} width={500} height={500} />
         <div className="flex flex-col gap-5">
@@ -30,7 +30,7 @@ const Book = ({ params }: { params: { id: string } }) => {
           <Link
             href={book.link}
             target="_blank"
-            className="bg-dark p-4 font-bold rounded-xl w-40 text-gold text-center"
+            className="w-40 rounded-xl bg-dark p-4 text-center font-bold text-gold"
           >
             BUY BOOK
           </Link>

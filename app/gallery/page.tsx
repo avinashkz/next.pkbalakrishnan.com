@@ -28,7 +28,7 @@ const Gallery = () => {
       {Object.entries(gallery).map(([title, images]) => (
         <div key={title}>
           <h1 className="heading-1">{title}</h1>
-          <div className="flex flex-wrap items-center justify-left grow gap-5 mt-2 mb-5">
+          <div className="justify-left mb-5 mt-2 flex grow flex-wrap items-center gap-5">
             {images.map((image, index) => (
               <Image key={index} alt="" src={image} width={310} height={300} />
             ))}

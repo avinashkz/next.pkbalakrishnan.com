@@ -2,7 +2,7 @@ import React from 'react';
 
 function About() {
   return (
-    <div className="text-justify bg-light-gold p-10">
+    <div className="bg-light-gold p-10 text-justify">
       <h1 className="heading-1">Heart of a storm</h1>
       <p>
         A powerhouse to be reckoned with in the intellectual space of Kerala,
