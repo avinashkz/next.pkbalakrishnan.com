@@ -1,3 +1,5 @@
+import { ReactNode } from 'react';
+
 type Book = {
   id: string;
   title: string;
@@ -8,7 +10,7 @@ type Book = {
   link: string;
   thumbnail: string;
   cover: string;
-  contents: () => void;
+  contents: () => ReactNode;
 };
 
 export default Book;
