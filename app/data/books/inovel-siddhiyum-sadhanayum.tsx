@@ -1,3 +1,5 @@
+import Book from '@/types/book';
+
 const Contents = () => {
   return (
     <div>
@@ -29,7 +31,7 @@ const Contents = () => {
   );
 };
 
-const inovelSiddhiyumSadhanayum = {
+const inovelSiddhiyumSadhanayum: Book = {
   id: 'inovel-siddhiyum-sadhanayum',
   title: 'Inovel Siddhiyum Sadhanayum',
   subtitle: 'Category : STUDY',

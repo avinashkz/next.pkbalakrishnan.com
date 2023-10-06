@@ -1,3 +1,5 @@
+import Book from '@/types/book';
+
 const Contents = () => {
   return (
     <div>
@@ -83,7 +85,7 @@ const Contents = () => {
     </div>
   );
 };
-const narayanaguru = {
+const narayanaguru: Book = {
   id: 'narayanaguru',
   title: 'Narayanaguru',
   subtitle: 'Category : COLLECTIONS & SELECTED WORKS',

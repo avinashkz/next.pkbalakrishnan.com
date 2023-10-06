@@ -1,3 +1,5 @@
+import Book from '@/types/book';
+
 const Contents = () => {
   return (
     <div>
@@ -29,7 +31,7 @@ const Contents = () => {
   );
 };
 
-const battleBeyondKurukshetra = {
+const battleBeyondKurukshetra: Book = {
   id: 'battle-beyond-kurukshetra',
   title: 'Battle Beyond Kurukshetra',
   subtitle: 'A Mahabharata Novel',

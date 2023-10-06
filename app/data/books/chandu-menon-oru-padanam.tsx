@@ -1,3 +1,5 @@
+import Book from '@/types/book';
+
 const Contents = () => {
   return (
     <div>
@@ -24,7 +26,7 @@ const Contents = () => {
   );
 };
 
-const chanduMenonOruPadanam = {
+const chanduMenonOruPadanam: Book = {
   id: 'chandu-menon-oru-padanam',
   title: 'Chandu Menon Oru Padanam',
   subtitle: 'Category : STUDY',

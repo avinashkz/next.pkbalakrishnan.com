@@ -1,3 +1,5 @@
+import Book from '@/types/book';
+
 const Contents = () => {
   return (
     <div>
@@ -51,7 +53,8 @@ const Contents = () => {
     </div>
   );
 };
-const veerapulakom = {
+
+const veerapulakom: Book = {
   id: 'veerapulakom',
   title: 'Veerapulakom',
   subtitle: 'Category : HISTORY',

@@ -1,3 +1,5 @@
+import Book from '@/types/book';
+
 const Contents = () => {
   return (
     <div>
@@ -32,7 +34,8 @@ const Contents = () => {
     </div>
   );
 };
-const verittaChintakal = {
+
+const verittaChintakal: Book = {
   id: 'veritta-chintakal',
   title: 'Veritta Chintakal',
   subtitle: 'Category : COLLECTIONS & SELECTED WORKS',

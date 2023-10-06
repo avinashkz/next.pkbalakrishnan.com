@@ -1,3 +1,5 @@
+import Book from '@/types/book';
+
 const Contents = () => {
   return (
     <div>
@@ -30,7 +32,7 @@ const Contents = () => {
     </div>
   );
 };
-const kavyakalaKumaranasaniloode = {
+const kavyakalaKumaranasaniloode: Book = {
   id: 'kavyakala-kumaranasaniloode',
   title: 'Kavyakala Kumaranasaniloode',
   subtitle: 'Category : STUDY',

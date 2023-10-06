@@ -1,3 +1,5 @@
+import Book from '@/types/book';
+
 const Contents = () => {
   return (
     <div>
@@ -13,7 +15,7 @@ const Contents = () => {
     </div>
   );
 };
-const plutoPriyappettaPluto = {
+const plutoPriyappettaPluto: Book = {
   id: 'pluto-priyappetta-pluto',
   title: 'Pluto Priyappetta Pluto',
   subtitle: 'Category : NOVEL',

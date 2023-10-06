@@ -12,8 +12,13 @@ import keraleeyathayumMattum from './keraleeyathayum-mattum';
 import inovelSiddhiyumSadhanayum from './inovel-siddhiyum-sadhanayum';
 import veerapulakom from './veerapulakom';
 import verittaChintakal from './veritta-chintakal';
+import Book from '@/types/book';
 
-export const books = {
+interface StringMap {
+  [key: string]: Book;
+}
+
+export const books: StringMap = {
   'battle-beyond-kurukshetra': battleBeyondKurukshetra,
   'ini-njan-urangatte': iniNjanUrangatte,
   'jaathivyavasthithium-keralacharithravum':
@@ -31,7 +36,7 @@ export const books = {
   'veritta-chintakal': verittaChintakal,
 };
 
-export function getBookById(id) {
+export function getBookById(id: string) {
   return books[id];
 }
 

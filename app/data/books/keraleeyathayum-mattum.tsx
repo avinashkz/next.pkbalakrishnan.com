@@ -1,3 +1,5 @@
+import Book from '@/types/book';
+
 const Contents = () => {
   return (
     <div>
@@ -39,7 +41,7 @@ const Contents = () => {
     </div>
   );
 };
-const keraleeyathayumMattum = {
+const keraleeyathayumMattum: Book = {
   id: 'keraleeyathayum-mattum',
   title: 'Keraleeyathayum Mattum P K Balakrishnante Asamahrutha Rachanakal',
   shortTitle: 'Keraleeyathayum Mattum',

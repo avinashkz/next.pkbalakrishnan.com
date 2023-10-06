@@ -1,3 +1,5 @@
+import Book from '@/types/book';
+
 const Contents = () => {
   return (
     <div>
@@ -25,7 +27,7 @@ const Contents = () => {
     </div>
   );
 };
-const jaathivyavasthithiumKeralacharithravum = {
+const jaathivyavasthithiumKeralacharithravum: Book = {
   id: 'jaathivyavasthithium-keralacharithravum',
   title: 'Jaathivyavasthithium Keralacharithravum',
   subtitle: 'The Caste system and History of Kerala (1983)',

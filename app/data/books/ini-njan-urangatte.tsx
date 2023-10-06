@@ -1,3 +1,5 @@
+import Book from '@/types/book';
+
 const Contents = () => {
   return (
     <div>
@@ -68,7 +70,7 @@ const Contents = () => {
   );
 };
 
-const iniNjanUrangatte = {
+const iniNjanUrangatte: Book = {
   id: 'ini-njan-urangatte',
   title: 'Ini Njan Urangatte',
   subtitle: 'And Now Let Me Sleep (1973)',

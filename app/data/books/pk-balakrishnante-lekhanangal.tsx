@@ -1,3 +1,5 @@
+import Book from '@/types/book';
+
 const Contents = () => {
   return (
     <div>
@@ -70,7 +72,7 @@ const Contents = () => {
     </div>
   );
 };
-const balakrishnanteLekhanangal = {
+const balakrishnanteLekhanangal: Book = {
   id: 'pk-balakrishnante-lekhanangal',
   title: 'P K Balakrishnante Lekhanangal',
   subtitle: 'Category : COLLECTIONS & SELECTED WORKS',

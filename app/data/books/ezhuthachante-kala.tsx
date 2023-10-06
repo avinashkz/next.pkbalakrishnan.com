@@ -1,3 +1,5 @@
+import Book from '@/types/book';
+
 const Contents = () => {
   return (
     <div>
@@ -27,7 +29,7 @@ const Contents = () => {
   );
 };
 
-const ezhuthachanteKala = {
+const ezhuthachanteKala: Book = {
   id: 'ezhuthachante-kala',
   title: 'Ezhuthachante Kala : Chila Vyasabharatha Patanangalum',
   shortTitle: 'Ezhuthachante Kala',
