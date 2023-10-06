@@ -20,7 +20,14 @@ const Book = ({ params }: { params: { id: string } }) => {
   return (
     <div className="bg-light-gold p-14">
       <div className="flex gap-10">
-        <Image alt="" src={book.cover} width={500} height={500} />
+        <Image
+          alt=""
+          src={book.cover}
+          width={0}
+          height={0}
+          sizes="500px"
+          style={{ width: 'auto', height: '500px' }}
+        />
         <div className="flex flex-col gap-5">
           <h1 className="heading-1">{book.title}</h1>
           <h2 className="heading-2">{book.subtitle}</h2>
