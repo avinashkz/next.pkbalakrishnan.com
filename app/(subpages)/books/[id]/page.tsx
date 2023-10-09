@@ -32,12 +32,16 @@ const Book = ({ params }: { params: { id: string } }) => {
           <h1 className="heading-1">{book.title}</h1>
           <h2 className="heading-2">{book.subtitle}</h2>
           <div>{book.overview}</div>
-          <b>Publisher: </b>
-          <b>First Published: </b>
+          <span>
+            <b>Publisher: </b> {book.publisher}
+          </span>
+          <span>
+            <b>First Published: </b> {book.firstPublished}
+          </span>
           <Link
             href={book.link}
             target="_blank"
-            className="w-40 rounded-xl bg-dark p-4 text-center font-bold text-gold"
+            className="w-32 rounded-xl bg-dark p-3 text-center font-bold text-gold"
           >
             BUY BOOK
           </Link>

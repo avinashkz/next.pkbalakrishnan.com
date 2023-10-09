@@ -83,6 +83,8 @@ const balakrishnanteLekhanangal: Book = {
   thumbnail: '/books-thumbnail/pk-balakrishnante-lekhanangal.jpg',
   cover: '/books-cover/pk-balakrishnante-lekhanangal.jpg',
   contents: Contents,
+  firstPublished: 'Mayathasandhyakal 1978 & Nidrasancharangal 1989',
+  publisher: 'D.C Books',
 };
 
 export default balakrishnanteLekhanangal;

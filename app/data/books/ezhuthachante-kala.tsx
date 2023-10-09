@@ -41,6 +41,8 @@ const ezhuthachanteKala: Book = {
   thumbnail: '/books-thumbnail/ezhuthachante-kala.jpg',
   cover: '/books-cover/ezhuthachante-kala.jpg',
   contents: Contents,
+  firstPublished: 1982,
+  publisher: 'D.C Books',
 };
 
 export default ezhuthachanteKala;

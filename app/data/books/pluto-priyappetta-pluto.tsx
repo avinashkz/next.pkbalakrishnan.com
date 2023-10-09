@@ -26,6 +26,8 @@ const plutoPriyappettaPluto: Book = {
   thumbnail: '/books-thumbnail/pluto-priyappetta-pluto.jpg',
   cover: '/books-cover/pluto-priyappetta-pluto.jpg',
   contents: Contents,
+  firstPublished: 1963,
+  publisher: 'D.C Books',
 };
 
 export default plutoPriyappettaPluto;

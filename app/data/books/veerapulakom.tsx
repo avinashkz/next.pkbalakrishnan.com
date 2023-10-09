@@ -65,6 +65,8 @@ const veerapulakom: Book = {
   thumbnail: '/books-thumbnail/veerapulakom.jpg',
   cover: '/books-cover/veerapulakom.jpg',
   contents: Contents,
+  firstPublished: 2015,
+  publisher: 'D.C Books',
 };
 
 export default veerapulakom;

@@ -37,6 +37,8 @@ const chanduMenonOruPadanam: Book = {
   thumbnail: '/books-thumbnail/chandu-menon-oru-padanam.jpg',
   cover: '/books-cover/chandu-menon-oru-padanam.jpg',
   contents: Contents,
+  firstPublished: 1957,
+  publisher: 'D.C Books',
 };
 
 export default chanduMenonOruPadanam;

@@ -81,6 +81,8 @@ const iniNjanUrangatte: Book = {
   thumbnail: '/books-thumbnail/ini-njan-urangatte.jpg',
   cover: '/books-cover/ini-njan-urangatte.jpg',
   contents: Contents,
+  firstPublished: 1973,
+  publisher: 'D.C Books',
 };
 
 export default iniNjanUrangatte;

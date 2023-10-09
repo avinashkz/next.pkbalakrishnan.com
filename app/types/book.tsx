@@ -7,6 +7,8 @@ type Book = {
   subtitle: string;
   overview: string;
   description: string;
+  firstPublished?: number | string;
+  publisher: string;
   link: string;
   thumbnail: string;
   cover: string;

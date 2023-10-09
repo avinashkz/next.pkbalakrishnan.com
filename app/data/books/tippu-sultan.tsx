@@ -45,6 +45,8 @@ const tippuSultan: Book = {
   thumbnail: '/books-thumbnail/tippu-sultan.jpg',
   cover: '/books-cover/tippu-sultan.jpg',
   contents: Contents,
+  firstPublished: 1959,
+  publisher: 'D.C Books',
 };
 
 export default tippuSultan;

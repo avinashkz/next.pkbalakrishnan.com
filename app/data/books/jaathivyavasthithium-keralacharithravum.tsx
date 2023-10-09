@@ -38,6 +38,8 @@ const jaathivyavasthithiumKeralacharithravum: Book = {
   thumbnail: '/books-thumbnail/jaathivyavasthithium-keralacharithravum.jpg',
   cover: '/books-cover/jaathivyavasthithium-keralacharithravum.jpg',
   contents: Contents,
+  firstPublished: 1983,
+  publisher: 'D.C Books',
 };
 
 export default jaathivyavasthithiumKeralacharithravum;

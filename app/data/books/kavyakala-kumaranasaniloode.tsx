@@ -43,6 +43,8 @@ const kavyakalaKumaranasaniloode: Book = {
   thumbnail: '/books-thumbnail/kavyakala-kumaranasaniloode.jpg',
   cover: '/books-cover/kavyakala-kumaranasaniloode.jpg',
   contents: Contents,
+  firstPublished: 1970,
+  publisher: 'D.C Books',
 };
 
 export default kavyakalaKumaranasaniloode;

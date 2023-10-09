@@ -96,6 +96,8 @@ const narayanaguru: Book = {
   thumbnail: '/books-thumbnail/narayanaguru.jpg',
   cover: '/books-cover/narayanaguru.jpg',
   contents: Contents,
+  firstPublished: 1954,
+  publisher: 'D.C Books',
 };
 
 export default narayanaguru;

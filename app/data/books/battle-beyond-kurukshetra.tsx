@@ -42,6 +42,8 @@ const battleBeyondKurukshetra: Book = {
   thumbnail: '/books-thumbnail/battle-beyond-kurukshetra.jpg',
   cover: '/books-cover/battle-beyond-kurukshetra.jpg',
   contents: Contents,
+  firstPublished: 'First Published as Ebook by DC Books in 2014',
+  publisher: 'Oxford University Press',
 };
 
 export default battleBeyondKurukshetra;

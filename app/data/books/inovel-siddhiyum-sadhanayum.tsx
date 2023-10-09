@@ -42,6 +42,8 @@ const inovelSiddhiyumSadhanayum: Book = {
   thumbnail: '/books-thumbnail/inovel-siddhiyum-sadhanayum.jpg',
   cover: '/books-cover/inovel-siddhiyum-sadhanayum.jpg',
   contents: Contents,
+  firstPublished: 1965,
+  publisher: 'D.C Books',
 };
 
 export default inovelSiddhiyumSadhanayum;

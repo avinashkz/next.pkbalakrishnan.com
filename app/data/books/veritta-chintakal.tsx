@@ -46,6 +46,8 @@ const verittaChintakal: Book = {
   thumbnail: '/books-thumbnail/veritta-chintakal.jpg',
   cover: '/books-cover/veritta-chintakal.jpg',
   contents: Contents,
+  firstPublished: 2011,
+  publisher: 'D.C Books',
 };
 
 export default verittaChintakal;
