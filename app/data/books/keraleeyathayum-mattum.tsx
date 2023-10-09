@@ -53,6 +53,7 @@ const keraleeyathayumMattum: Book = {
   thumbnail: '/books-thumbnail/keraleeyathayum-mattum.jpg',
   cover: '/books-cover/keraleeyathayum-mattum.jpg',
   contents: Contents,
+  publisher: 'D.C Books',
 };
 
 export default keraleeyathayumMattum;
