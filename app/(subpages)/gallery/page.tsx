@@ -1,5 +1,10 @@
 import Image from 'next/image';
 import React from 'react';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Gallery',
+};
 
 const gallery = {
   '1940s': [

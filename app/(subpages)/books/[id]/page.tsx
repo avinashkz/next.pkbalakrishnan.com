@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import { Metadata } from 'next';
 
 import books from 'data/books/books';
 import { getBookById } from 'data/books/books';
@@ -7,15 +8,26 @@ import Link from 'next/link';
 
 export const dynamicParams = false;
 
+type Props = {
+  params: { id: string };
+};
+
+export function generateMetadata({ params }: Props): Metadata {
+  const book = getBookById(params.id);
+  return {
+    title: `${book.title}`,
+    description: book.description || book.overview,
+  };
+}
+
 export function generateStaticParams() {
   return books.map((book) => ({
     id: book.id,
   }));
 }
 
-const Book = ({ params }: { params: { id: string } }) => {
-  const { id } = params;
-  const book = getBookById(id);
+const Book = ({ params }: Props) => {
+  const book = getBookById(params.id);
 
   return (
     <div className="bg-light-gold p-14">

@@ -6,8 +6,11 @@ import { Inter } from 'next/font/google';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'P.K Balakrishnan',
-  description: 'Critic. Historian. Novelist. Journalist',
+  title: {
+    template: '%s | P.K Balakrishnan',
+    default: 'P.K Balakrishnan',
+  },
+  description: 'Website of author P.K Balakrishnan.',
 };
 
 export default function RootLayout({

@@ -1,6 +1,11 @@
 import React from 'react';
 import Book from '@/components/book';
 import books from 'data/books/books';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Books',
+};
 
 const Books = () => {
   return (
