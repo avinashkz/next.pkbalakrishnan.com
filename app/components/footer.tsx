@@ -6,7 +6,7 @@ const Footer = ({ backgroundColor }: { backgroundColor: string }) => {
       <hr className="w-full bg-black" />
       <span className="pt-2 text-lg">
         Copyright &copy;
-        <span className="text-gold">Avinash Prabhakaran</span>
+        <span className="text-gold"> Avinash Prabhakaran </span>
         2023
       </span>
     </div>

@@ -55,9 +55,11 @@ export default function Home() {
             <Book key={book.id} book={book} />
           ))}
         </div>
+      </div>
+      <div className="flex h-32 w-full items-start justify-center bg-white">
         <Link
           href="/books"
-          className="w-40 rounded-full bg-dark p-4 text-center font-bold text-gold"
+          className="h-fit w-40 rounded-full bg-dark p-4 text-center font-bold text-gold"
         >
           MORE BOOKS
         </Link>

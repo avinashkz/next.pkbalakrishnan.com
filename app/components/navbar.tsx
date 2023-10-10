@@ -4,11 +4,11 @@ import Link from 'next/link';
 function Navbar() {
   return (
     <div className="flex h-12 justify-end bg-dark text-lg font-bold text-gold">
-      <Link className="mr-auto p-3" href="/">
+      <Link className="mr-auto min-w-fit p-3" href="/">
         P.K Balakrishnan
       </Link>
       <Link
-        className="p-3"
+        className="min-w-fit p-3"
         target="_blank"
         href="https://dcbookstore.com/authors/p.-k.-balakrishnan"
       >
