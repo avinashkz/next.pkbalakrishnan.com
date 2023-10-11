@@ -5,6 +5,11 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Books',
+  description:
+    'Balakrishnan has 13 books to his credit.  His works includes Ini Njan Urangatte his best known novel, history books like “Jaathivyavasthitium Kerala Charitravum, Tippu Sultan etc, full length studies on Narayanaguru, Kumaranasan, O Chandu Menon etc, several insightful criticisms and collection of essays.',
+  alternates: {
+    canonical: '/books',
+  },
 };
 
 const Books = () => {

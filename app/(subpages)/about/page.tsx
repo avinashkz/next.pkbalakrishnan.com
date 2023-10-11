@@ -3,6 +3,11 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'About',
+  description:
+    'P.K Balakrishnan was an author par excellence, a committed and daring journalist, a fiery orator and above all a great human being.He authored one of best and most widely read novels of the language, a controversial and original history of the state, and a series of studies unparalleled in their depth and understanding of the subject and originality of vision.',
+  alternates: {
+    canonical: '/about',
+  },
 };
 
 function About() {

@@ -1,11 +1,20 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import type { Metadata } from 'next';
 
 import { FaRegEnvelope } from 'react-icons/fa';
 import { FaFacebookSquare } from 'react-icons/fa';
 
 import Book from '@/components/book';
 import books from 'data/books/books';
+
+export const metadata: Metadata = {
+  description:
+    'P.K Balakrishnan was an author par excellence, a committed and daring journalist, a fiery orator and above all a great human being.He authored one of best and most widely read novels of the language, a controversial and original history of the state, and a series of studies unparalleled in their depth and understanding of the subject and originality of vision.',
+  alternates: {
+    canonical: `/`,
+  },
+};
 
 const gallery = [
   '/gallery/thumbnail/1.jpg',

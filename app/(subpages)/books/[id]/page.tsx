@@ -17,6 +17,9 @@ export function generateMetadata({ params }: Props): Metadata {
   return {
     title: `${book.title}`,
     description: book.description || book.overview,
+    alternates: {
+      canonical: `books/${params.id}`,
+    },
   };
 }
 

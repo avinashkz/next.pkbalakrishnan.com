@@ -4,6 +4,10 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Gallery',
+  description: 'Photographs of P.K Balakrishnan, family and friends.',
+  alternates: {
+    canonical: '/gallery',
+  },
 };
 
 const gallery = {
