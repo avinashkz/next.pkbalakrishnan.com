@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import { Disclosure } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 
@@ -16,6 +17,8 @@ function classNames(...classes: Array<string>) {
 }
 
 export default function Example() {
+  const currentPath = usePathname();
+  console.log(currentPath);
   return (
     <Disclosure as="nav" className="bg-dark">
       {({ open }) => (
@@ -47,12 +50,14 @@ export default function Example() {
                         key={item.name}
                         href={item.href}
                         className={classNames(
-                          item.current
+                          item.href === currentPath
                             ? 'bg-gold text-white'
                             : 'text-gold hover:bg-gray-700 hover:text-white',
                           'rounded-md px-3 py-2 text-sm font-bold',
                         )}
-                        aria-current={item.current ? 'page' : undefined}
+                        aria-current={
+                          item.href === currentPath ? 'page' : undefined
+                        }
                       >
                         {item.name}
                       </Link>
@@ -83,12 +88,12 @@ export default function Example() {
                   as="a"
                   href={item.href}
                   className={classNames(
-                    item.current
+                    item.href === currentPath
                       ? 'cursor-auto bg-dark text-white'
                       : 'text-gold hover:bg-gold hover:text-white',
                     'block rounded-md px-3 py-2 text-base font-medium',
                   )}
-                  aria-current={item.current ? 'page' : undefined}
+                  aria-current={item.href === currentPath ? 'page' : undefined}
                 >
                   {item.name}
                 </Disclosure.Button>
