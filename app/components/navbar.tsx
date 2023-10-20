@@ -6,10 +6,10 @@ import { Disclosure } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 
 const navigation = [
-  { name: 'About', href: '/about', current: true },
-  { name: 'Books', href: '/books', current: false },
-  { name: 'Gallery', href: '/gallery', current: false },
-  { name: 'Contact', href: '/contact', current: false },
+  { name: 'About', href: '/about' },
+  { name: 'Books', href: '/books' },
+  { name: 'Gallery', href: '/gallery' },
+  { name: 'Contact', href: '/contact' },
 ];
 
 function classNames(...classes: Array<string>) {
@@ -18,7 +18,7 @@ function classNames(...classes: Array<string>) {
 
 export default function Example() {
   const currentPath = usePathname();
-  console.log(currentPath);
+
   return (
     <Disclosure as="nav" className="bg-dark">
       {({ open }) => (
