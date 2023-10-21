@@ -3,7 +3,7 @@ import Book from '@/types/book';
 const Contents = () => {
   return (
     <div>
-      <p>
+      <p className="mt-5">
         Sidhiyum Sadhanayum is an acclaimed critical work on novel writing. This
         book is a product of Balakrishnan&apos;s desire to write a role model
         for criticism in Malayalam literature. It conveys the peculiarities and
@@ -14,17 +14,17 @@ const Contents = () => {
         peculiarities of novel is unavoidable to the growth of the art form in
         any literature.
       </p>
-      <p>
+      <p className="mt-5">
         The art and craft of novel writing is discussed based on the novels
         written by three great novelists -Tarasankar Banerjee, the Bengali
         novelist and author of &quot;Aarogyanikethanam&quot;, English novelist
         Jane Austin, and the Russian novelist Fyodor Dostoyevsky
       </p>
-      <p>
+      <p className="mt-5">
         The preface to the book is written by Dr. K. Ayyappa Panicker, the
         father of modern Malayalam poetry and the author&apos;s friend.
       </p>
-      <p>
+      <p className="mt-5">
         The book is dedicated to the loving memory of his father Kesavanasan.
       </p>
     </div>

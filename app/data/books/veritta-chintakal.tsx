@@ -3,7 +3,7 @@ import Book from '@/types/book';
 const Contents = () => {
   return (
     <div>
-      <p>
+      <p className="mt-5">
         Veritta Chintakal is a collection of articles on Indian history and
         social history of Kerala which Balakrishnan wrote in Madhyamam Daily
         when he was Chief Editor which he had titled &apos;Sermons From The
@@ -11,8 +11,8 @@ const Contents = () => {
         the political space.
       </p>
 
-      <p>The articles are:</p>
-      <ol>
+      <p className="mt-5">The articles are:</p>
+      <ol className="mt-5 list-inside list-decimal">
         <li> India: From Gandhiji to Ambedkar</li>
         <li> The White Looters, Independent India etc</li>
         <li> Gandhiji, Cabinet Mission Plan and Partition of India</li>

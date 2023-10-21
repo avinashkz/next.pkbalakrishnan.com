@@ -3,7 +3,7 @@ import Book from '@/types/book';
 const Contents = () => {
   return (
     <div>
-      <p>
+      <p className="mt-5">
         Chandumenon Oru Padanam by Balakrishnan is a study on the first
         Malayalam novelist Oyyarathu Chandu Menon. &quot;It was not the
         greatness of the literary figure of Chandumenon that first attracted me
@@ -16,12 +16,14 @@ const Contents = () => {
         handled through this view point.&quot;
       </p>
 
-      <p>
+      <p className="mt-5">
         The preface to this book is written by the author&apos;s friend Prof. M.
         K. Sanoo.
       </p>
 
-      <p>The book is dedicated to his teacher Sri.K.J. Alexander.</p>
+      <p className="mt-5">
+        The book is dedicated to his teacher Sri.K.J. Alexander.
+      </p>
     </div>
   );
 };
