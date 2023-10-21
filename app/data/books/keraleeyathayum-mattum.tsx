@@ -43,11 +43,11 @@ const Contents = () => {
 };
 const keraleeyathayumMattum: Book = {
   id: 'keraleeyathayum-mattum',
-  title: 'Keraleeyathayum Mattum P K Balakrishnante Asamahrutha Rachanakal',
+  title: 'Keraleeyathayum Mattum',
   shortTitle: 'Keraleeyathayum Mattum',
   subtitle: 'Category : ESSAYS',
   overview:
-    'The studies in this book were written over a span of 18 years from 1960. They were born out of a sense of duty impelled by the warmth of his personal affection.',
+    'This a compilation of articles published in various periodicals over a period of time.',
   description: '',
   link: 'https://dcbookstore.com/books/keraleeyathayum-mattum-p-k-balakrishnante-asamahrutha-rachanakal',
   thumbnail: '/books-thumbnail/keraleeyathayum-mattum.jpg',

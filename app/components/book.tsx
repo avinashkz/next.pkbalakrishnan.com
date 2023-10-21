@@ -18,17 +18,20 @@ const Book = ({
   };
 }) => {
   return (
-    <div className="flex h-[620px] w-60 shrink-0 grow flex-col items-center space-y-5">
+    <div className="flex h-[520px] w-80 shrink-0 flex-col items-center space-y-5">
       <Image
         alt={book.title + 'Image'}
+        className="h-56 w-auto"
         src={book.cover}
         width={200}
         height={200}
       />
-      <h3 className="heading-3">{book.title}</h3>
-      <p className="w-72 text-center text-gray-500">
-        {book.overview.slice(0, 250)}
-      </p>
+      <div className="h-56">
+        <h3 className="heading-3">{book.title}</h3>
+        <p className="line-clamp-6 text-justify text-gray-500">
+          {book.overview}
+        </p>
+      </div>
       <div className="!mt-auto flex space-x-16 text-gray-500">
         <Link href={book.link} target="_blank">
           <TiShoppingCart size={25} />
