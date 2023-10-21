@@ -37,7 +37,7 @@ export default function Example() {
   }, []);
 
   const backgroundColor = scrolled ? 'bg-white' : 'bg-transparent';
-  const textColor = scrolled ? 'text-gold' : 'text-gray-300';
+  const textColor = scrolled ? 'text-gold' : 'text-gray-100';
 
   // Function to handle smooth scrolling to a section
   const scrollToSection = (sectionId: string) => {
