@@ -9,7 +9,7 @@ import chanduMenonOruPadanam from './chandu-menon-oru-padanam';
 import ezhuthachanteKala from './ezhuthachante-kala';
 import kavyakalaKumaranasaniloode from './kavyakala-kumaranasaniloode';
 import keraleeyathayumMattum from './keraleeyathayum-mattum';
-import inovelSiddhiyumSadhanayum from './inovel-siddhiyum-sadhanayum';
+import novelSiddhiyumSadhanayum from './novel-siddhiyum-sadhanayum';
 import veerapulakom from './veerapulakom';
 import verittaChintakal from './veritta-chintakal';
 import Book from '@/types/book';
@@ -31,7 +31,7 @@ export const books: StringMap = {
   'ezhuthachante-kala': ezhuthachanteKala,
   'kavyakala-kumaranasaniloode': kavyakalaKumaranasaniloode,
   'keraleeyathayum-mattum': keraleeyathayumMattum,
-  'inovel-siddhiyum-sadhanayum': inovelSiddhiyumSadhanayum,
+  'novel-siddhiyum-sadhanayum': novelSiddhiyumSadhanayum,
   veerapulakom: veerapulakom,
   'veritta-chintakal': verittaChintakal,
 };
@@ -52,7 +52,7 @@ const booksList = [
   ezhuthachanteKala,
   kavyakalaKumaranasaniloode,
   keraleeyathayumMattum,
-  inovelSiddhiyumSadhanayum,
+  novelSiddhiyumSadhanayum,
   veerapulakom,
   verittaChintakal,
 ];
