@@ -20,7 +20,7 @@ const plutoPriyappettaPluto: Book = {
   title: 'Pluto Priyappetta Pluto',
   subtitle: 'Category : NOVEL',
   overview:
-    'A timeless classic, the novel has received the Kerala Sahitya Akademi award (1974), Sahitya Pravarthaka Benefit Fund award, and the Vayalar award (1978).This novel is counted as one of the best novels of Malayalam literature and constant best seller since it was first published in 1973.',
+    'The only other novel written by the author, it captures the rustic charm and liveliness of his native village, which forms the background for the exploits of his dog Pluto.',
   description: '',
   link: 'https://dcbookstore.com/books/pluto-priyappetta-pluto',
   thumbnail: '/books-thumbnail/pluto-priyappetta-pluto.jpg',

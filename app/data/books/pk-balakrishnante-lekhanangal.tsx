@@ -77,7 +77,7 @@ const balakrishnanteLekhanangal: Book = {
   title: 'P K Balakrishnante Lekhanangal',
   subtitle: 'Category : COLLECTIONS & SELECTED WORKS',
   overview:
-    'The studies in this book were written over a span of 18 years from 1960. They were born out of a sense of duty impelled by the warmth of his personal affection.',
+    'This book was originally published as two different books Mayaathasandyakal and Nidrasanchangal. The first contains the warm reflections on 8 people who was close to him; whom he loved and respected.  The second is a compilation of various articles written over a period of time.',
   description: '',
   link: 'https://dcbookstore.com/books/p-k-balakrishnante-lekhanangal',
   thumbnail: '/books-thumbnail/pk-balakrishnante-lekhanangal.jpg',

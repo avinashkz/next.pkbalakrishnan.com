@@ -36,7 +36,7 @@ const novelSiddhiyumSadhanayum: Book = {
   title: 'Novel Siddhiyum Sadhanayum',
   subtitle: 'Category : STUDY',
   overview:
-    'A timeless classic, the novel has received the Kerala Sahitya Akademi award (1974), Sahitya Pravarthaka Benefit Fund award, and the Vayalar award (1978).This novel is counted as one of the best novels of Malayalam literature and constant best seller since it was first published in 1973.',
+    'This is a comprehensive study on the art of novel writing.  It studies three novelists - Bankim Chandra Chatterjee, Jane Austin and Fyodor Dostoyevsky to explore the art of the novel.',
   description: '',
   link: 'https://dcbookstore.com/books/novel-siddhiyum-sadhanayum',
   thumbnail: '/books-thumbnail/novel-siddhiyum-sadhanayum.jpg',

@@ -39,7 +39,7 @@ const tippuSultan: Book = {
   title: 'Tippu Sulthan',
   subtitle: 'Category : HISTORY',
   overview:
-    "Tippu's life is an unusual tragedy. Anybody who comes into contact with the facts of his life will be attracted by the drama of his tragic life. This has lead to various dramas and novels on his life in different languages. And histories doing factual justice to his life were practically non-existent.",
+    'Tippu Sultan was an able administrator and one of the rare Indian rulers who could stand up to the British.  His life is an unnatural tragedy that would fascinate anyone trying to know him.  This book examines how the British and Western historians and the natives alike painted him with the brush of religious fanaticism.',
   description: '',
   link: 'https://dcbookstore.com/books/tippu-sulthan',
   thumbnail: '/books-thumbnail/tippu-sultan.jpg',
