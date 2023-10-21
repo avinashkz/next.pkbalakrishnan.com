@@ -3,19 +3,16 @@ import Book from '@/types/book';
 const Contents = () => {
   return (
     <div>
-      <h2 className="">
-        MAAYAATHA SANDHYAKAL
-        <small>UNFADING TWILIGHTS</small>
+      <h2 className="mt-10 text-xl font-semibold">
+        MAAYAATHA SANDHYAKAL <small>UNFADING TWILIGHTS</small>
       </h2>
-
-      <br />
-      <p>
+      <p className="mt-5">
         The studies in the anthology originally published under the title
         Maayatha Sandhyakal were written over a span of 18 years from 1960. They
         were born out of a sense of duty impelled by the warmth of his personal
         affection.
       </p>
-      <p>
+      <p className="mt-5">
         The book is a collection of 8 essays. The first is a discourse on beauty
         as a value concept. The remaining articles are on well figures and
         people dear to him. There are two essays each on Karoor Neelakanta
@@ -23,8 +20,8 @@ const Contents = () => {
         Nair and P.K. Vikraman Nair.
       </p>
 
-      <p>The articles are:</p>
-      <ol>
+      <p className="mt-5">The articles are:</p>
+      <ol className="list-inside list-decimal">
         <li>Society and &apos;beauty&apos; as a value</li>
         <li>On Kuttykrishna Marar</li>
         <li>Karoor - the individual and artist.</li>
@@ -35,17 +32,16 @@ const Contents = () => {
         <li>P.K.Vikraman Nair</li>
       </ol>
 
-      <h2 className="">
-        NIDRA SAHCHARANGAL
-        <small>SLEEP WALKINGS</small>
+      <h2 className="mt-10 text-xl font-semibold">
+        NIDRA SAHCHARANGAL <small>SLEEP WALKINGS</small>
       </h2>
 
-      <p>
+      <p className="mt-5">
         The anthology originally published as Nidrasancharangal owes its
         existence to the loving encouragement of Poorna Publications.
       </p>
-      <p>The book contains 15 articles as follows:</p>
-      <ol>
+      <p className="mt-5">The book contains 15 articles as follows:</p>
+      <ol className="mt-5 list-inside list-decimal">
         <li>Good Novel and Great Novel</li>
         <li>C.V the Novelist. (On C.V. Raman Pillai)</li>
         <li>Chandu Menon and the Social Background.</li>
@@ -68,7 +64,7 @@ const Contents = () => {
         <li>A Poser in the history of Journalisam</li>
       </ol>
 
-      <p>First Reprinted April 2004 - Publisher DC Books</p>
+      <p className="mt-5">First Reprinted April 2004 - Publisher DC Books</p>
     </div>
   );
 };

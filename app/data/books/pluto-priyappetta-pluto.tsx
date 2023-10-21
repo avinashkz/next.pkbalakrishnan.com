@@ -3,7 +3,7 @@ import Book from '@/types/book';
 const Contents = () => {
   return (
     <div>
-      <p>
+      <p className="mt-5">
         Balakrishnan on Pluto Priyapetta Pluto:&quot;The first reason why the
         story of a dog becomes a part of my autobiography is not only because
         the narrator is myself, but also because the character outline of Pluto

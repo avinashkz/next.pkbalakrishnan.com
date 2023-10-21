@@ -3,13 +3,13 @@ import Book from '@/types/book';
 const Contents = () => {
   return (
     <div>
-      <b>
+      <p className="mt-5 font-bold">
         Light from the fire burning afar mingled with the moonlight in
         Kurukshetra to create a terrible twilight. Scattered corpses ... broken
         chariots ... sporadic death cries ... prowling scavengers ... the
         battlefield stretched endlessly.
-      </b>
-      <p>
+      </p>
+      <p className="mt-5">
         The victorious Pandava camps burst into deafening cheers amidst burning
         funeral pyres. The Great War was finally over. But soon enough, when
         everyone learns the truth about the hated enemy, Karna, that towering
@@ -20,7 +20,7 @@ const Contents = () => {
         character completely overturns. Her pride for her husbands’ valour
         erodes. Life as she had understood slowly begins to lose meaning.
       </p>
-      <p>
+      <p className="mt-5">
         This Malayalam classic centres on Karna, the most criticized yet admired
         character of the Mahabharata, treacherously killed by his half- brother
         Arjuna. His life story unfolds through the eyes of Draupadi, in

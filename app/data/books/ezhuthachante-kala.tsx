@@ -3,8 +3,10 @@ import Book from '@/types/book';
 const Contents = () => {
   return (
     <div>
-      <h1>CHILA VYASABHARATHA PADANANGALUM</h1>
-      <p>
+      <h1 className="mt-5 text-xl font-medium">
+        CHILA VYASABHARATHA PADANANGALUM
+      </h1>
+      <p className="mt-5">
         P K Balakrishnan has studied the Indian epics in great depth. He had
         Malayalam and English translations of the Mahabharata, some summary
         translations as also a few of the regional variants of both epics in his
@@ -21,7 +23,7 @@ const Contents = () => {
         complement the early references to the Vyasabharath, the last chapter
         deals with the evolution of the Vyasabharath.
       </p>
-      <p>
+      <p className="mt-5">
         The preface to the book is written by the author&apos;s poet friend Mr.
         Neelamperur Madhudoodanan Nair.
       </p>

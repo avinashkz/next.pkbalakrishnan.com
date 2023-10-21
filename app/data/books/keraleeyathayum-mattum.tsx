@@ -3,7 +3,7 @@ import Book from '@/types/book';
 const Contents = () => {
   return (
     <div>
-      <p>
+      <p className="mt-5">
         Keraleeyatayum Mattum is a collection of 20 articles published in
         various periodicals over a time. This book owes its origin to the
         efforts of a group of young men who got together to form
@@ -12,8 +12,8 @@ const Contents = () => {
         Though their project did not materialise, it resulted in this
         collection.
       </p>
-      <p>The articles included are:</p>
-      <ol>
+      <p className="mb-2 mt-5">The articles included are:</p>
+      <ol className="list-inside list-decimal">
         <li> Some Unbridled Observations on Kunjan Nambiar</li>
         <li>Asan&apos;s Poetic Essence and Problem of life and Death</li>
         <li> Poetry of Kunjunni</li>

@@ -105,7 +105,7 @@ export default function Home() {
       <div id="contact" className="flex flex-col items-center px-14 py-20">
         <h1 className="heading-1">Get In Touch!</h1>
         <hr className="mt-5 h-1 w-10 bg-gold" />
-        <div className="flex w-full justify-evenly pt-10">
+        <div className="flex w-full flex-col justify-evenly gap-5 pt-10 md:flex-row md:gap-0">
           <div className="flex flex-col items-center">
             <FaRegEnvelope size={50} />
             <h3 className="heading-3 text-gold">pkjaya@hotmail.com</h3>

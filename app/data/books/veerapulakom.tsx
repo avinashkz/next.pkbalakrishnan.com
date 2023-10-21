@@ -3,7 +3,7 @@ import Book from '@/types/book';
 const Contents = () => {
   return (
     <div>
-      <p>
+      <p className="mt-5">
         Veerapulakathinte Katha is a collection of though provoking essays
         written by PK Balakrishnan. The credit for this book goes to Poorna
         Printing & Publishing house, Varkala and Dr S Shaji. Of the compilation
@@ -19,9 +19,10 @@ const Contents = () => {
         freedom struggle these forces from the aspiration and confidence of a
         new thinking striving for self-determination. The articles deal with
         this complex subject in different contexts and levels, Kerala History,
-        literature etc. The book consists of the following collection:
+        literature etc.
       </p>
-      <ol>
+      <p className="mt-5">The book consists of the following collection:</p>
+      <ol className="mt-5 list-inside list-decimal">
         <li>What is Narayana Guru?</li>
         <li>The Relevance of the School at Shivagiri</li>
         <li>Asan and Vallathol</li>

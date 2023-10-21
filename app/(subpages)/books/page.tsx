@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 const Books = () => {
   return (
     <div className="bg-light-gold px-14 py-20">
-      <div className="flex items-end">
+      <div className="flex flex-col md:flex-row md:items-end ">
         <h1 className="min-w-fit text-4xl">Life Works</h1>
         <h2 className="min-w-fit text-2xl text-gray-600">
           ...Books by PK Balakrishnan

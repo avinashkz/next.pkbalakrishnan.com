@@ -33,15 +33,15 @@ const Book = ({ params }: Props) => {
   const book = getBookById(params.id);
 
   return (
-    <div className="bg-light-gold p-14">
-      <div className="flex gap-10">
+    <div className="flex flex-col bg-light-gold p-14 leading-loose">
+      <div className="flex flex-col gap-10 md:flex-row">
         <Image
           alt=""
           src={book.cover}
           width={0}
           height={0}
           sizes="500px"
-          style={{ width: 'auto', height: '500px' }}
+          className="h-[500px] w-min"
         />
         <div className="flex flex-col gap-5">
           <h1 className="heading-1">{book.title}</h1>
@@ -62,7 +62,8 @@ const Book = ({ params }: Props) => {
           </Link>
         </div>
       </div>
-      <div className="pt-10">{book.contents()}</div>
+      <h2 className="self-start pt-10 text-3xl">Overview</h2>
+      <div>{book.contents()}</div>
     </div>
   );
 };

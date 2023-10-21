@@ -3,7 +3,7 @@ import Book from '@/types/book';
 const Contents = () => {
   return (
     <div>
-      <p>
+      <p className="mt-5">
         This history book of P K Balakrishnan titled Jaathivyavasthitium Kerala
         Charitravum deals with the social history of Kerala from the point of
         evolution of its agricultural villages. It deals separately with the
@@ -18,7 +18,7 @@ const Contents = () => {
         exploitation hardly supported the glowing past the earlier historians
         had built.
       </p>
-      <p>
+      <p className="mt-5">
         In approach to methodology, the book follows that of D.D.Kosambi.
         Balakrishnan hopes that this book will lead to a comprehensive
         discussion of Kerala history considering all the circumstances and sans

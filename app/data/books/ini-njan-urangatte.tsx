@@ -2,14 +2,13 @@ import Book from '@/types/book';
 
 const Contents = () => {
   return (
-    <div>
-      <p>
+    <div className="">
+      <p className="mt-5">
         Ini Njan Urangatte by P K Balakrishnan is an epic novel which is counted
         as one of the best novels of Malayalam literature. It was first
         published in 1973.
       </p>
-
-      <p>
+      <p className="mt-5">
         The book subsists on the great epic ‘The Mahabharath’ that has
         flourished over two thousand years. The main element of the novel is the
         story of Karna woven into a delicately and imaginatively developed
@@ -18,21 +17,21 @@ const Contents = () => {
         thought of Draupadi, imaginatively constructed. The details of the story
         of Karna closely follows the original epic.
       </p>
-      <p>
+      <p className="mt-5">
         The parallel strands of the story of Karna and the recreated story of
         Draupadi flows through the novel, sometimes intertwining. One can behold
         in this flow, the main characters and events of the Mahabharath. The
         book thus has three different foci. It is hoped that an ‘out of focus’
         image thus formed, will have a contour of its own.
       </p>
-      <p>
+      <p className="mt-5">
         A timeless classic, the novel has earned for Balakrishnan, the Kerala
         Sahitya Akademi award (1974), Sahitya Pravarthaka Benefit Fund award,
         and the Vayalar award (1978). A constant best seller of the language
         ever since it was published, it has also been translated to different
         Indian languages under the scheme for classics by Kendra Sahitya Akademi
       </p>
-      <h3>Translations</h3>
+      <h3 className="mb-5 mt-10 text-2xl font-medium">Translations</h3>
       <ol>
         <li>
           <p>
