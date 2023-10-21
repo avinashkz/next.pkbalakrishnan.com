@@ -1,14 +1,15 @@
 'use client';
-
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { Disclosure } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 
 const navigation = [
-  { name: 'About', href: '/about' },
-  { name: 'Books', href: '/books' },
-  { name: 'Gallery', href: '/gallery' },
+  { name: 'About', href: 'about' },
+  { name: 'Books', href: 'books' },
+  { name: 'Gallery', href: 'gallery' },
+  { name: 'Contact', href: 'contact' },
 ];
 
 function classNames(...classes: Array<string>) {
@@ -18,8 +19,45 @@ function classNames(...classes: Array<string>) {
 export default function Example() {
   const currentPath = usePathname();
 
+  // Add a state to track the scroll position
+  const [scrolled, setScrolled] = useState(false);
+
+  // Event listener to handle scroll
+  const handleScroll = () => {
+    const isScrolled = window.scrollY > window.innerHeight * 0.1;
+    setScrolled(isScrolled);
+  };
+
+  // Add scroll event listener on component mount
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  const backgroundColor = scrolled ? 'bg-white' : 'bg-transparent';
+  const textColor = scrolled ? 'text-gold' : 'text-gray-300';
+
+  // Function to handle smooth scrolling to a section
+  const scrollToSection = (sectionId: string) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      const navbarHeight = 56;
+      const offset = section.offsetTop - navbarHeight;
+
+      window.scrollTo({
+        top: offset,
+        behavior: 'smooth',
+      });
+    }
+  };
+
   return (
-    <Disclosure as="nav" className="fixed z-10 w-full bg-dark">
+    <Disclosure
+      as="nav"
+      className={`fixed z-10 w-full ${backgroundColor} border-b-[0.01em] border-white transition-all duration-300`}
+    >
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -38,20 +76,27 @@ export default function Example() {
               </div>
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
-                  <Link href="/" className="h-auto w-auto font-bold text-gold">
+                  <Link
+                    href="/"
+                    className={`h-auto w-auto font-bold ${textColor}`}
+                  >
                     P.K Balakrishnan
                   </Link>
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
-                  <div className="flex space-x-4">
+                  <div className="flex space-x-4 scroll-smooth">
                     {navigation.map((item) => (
-                      <Link
+                      <a
                         key={item.name}
-                        href={item.href}
+                        href={`#${item.href}`}
+                        onClick={(e) => {
+                          e.preventDefault(); // Prevent default link behavior
+                          scrollToSection(item.href);
+                        }}
                         className={classNames(
                           item.href === currentPath
                             ? 'bg-gold text-white'
-                            : 'text-gold hover:bg-gray-700 hover:text-white',
+                            : `${textColor} hover:bg-gray-700 hover:text-white`,
                           'rounded-md px-3 py-2 text-sm font-bold',
                         )}
                         aria-current={
@@ -59,7 +104,7 @@ export default function Example() {
                         }
                       >
                         {item.name}
-                      </Link>
+                      </a>
                     ))}
                   </div>
                 </div>
@@ -71,7 +116,7 @@ export default function Example() {
                   className="relative p-1 font-bold text-gray-400"
                 >
                   {/* <span className="absolute -inset-1.5" /> */}
-                  <span className="h-6 w-6 text-gold hover:text-white">
+                  <span className={`h-6 w-6 ${textColor} hover:text-white`}>
                     Buy Books
                   </span>
                 </Link>
