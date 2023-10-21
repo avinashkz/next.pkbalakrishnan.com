@@ -26,8 +26,8 @@ const gallery = [
 export default function Home() {
   return (
     <div>
-      <div className="relative h-[calc(100vh-48px)] w-full">
-        <span className="relative z-[1] flex h-[calc(100vh-48px)] items-end justify-center pb-14 text-5xl text-white">
+      <div className="relative h-[100vh] w-full">
+        <span className="relative z-[1] flex h-[100vh] items-end justify-center pb-14 text-5xl text-white">
           Critic. Historian. Novelist. Journalist
         </span>
         <Image
@@ -37,7 +37,10 @@ export default function Home() {
           className="object-cover"
         />
       </div>
-      <div className="flex flex-col items-center space-y-10 bg-gold px-14 py-20">
+      <div
+        id="about"
+        className="flex flex-col items-center space-y-10 bg-gold px-14 py-20"
+      >
         <h1 className="pb-6 text-4xl font-bold text-white">Heart Of A Storm</h1>
         <p className="text-justify text-white">
           A powerhouse to be reckoned with in the intellectual space of Kerala,
@@ -57,7 +60,10 @@ export default function Home() {
           KNOW MORE
         </Link>
       </div>
-      <div className="flex flex-col items-center space-y-10 px-14 py-20">
+      <div
+        id="books"
+        className="flex flex-col items-center space-y-10 px-14 py-20"
+      >
         <h1 className="pb-6 text-4xl font-bold">Featured Books</h1>
         <div className="flex w-full flex-wrap justify-evenly gap-5">
           {books.slice(0, 3).map((book) => (
@@ -73,7 +79,10 @@ export default function Home() {
           MORE BOOKS
         </Link>
       </div>
-      <div className="flex flex-col items-center gap-10 bg-dark px-14 py-20">
+      <div
+        id="gallery"
+        className="flex flex-col items-center gap-10 bg-dark px-14 py-20"
+      >
         <h1 className="pb-6 text-4xl font-bold text-gold">Gallery</h1>
         <hr />
         <div className="flex w-full flex-wrap items-center justify-evenly gap-5">
@@ -93,7 +102,7 @@ export default function Home() {
           VIEW MORE
         </Link>
       </div>
-      <div className="flex flex-col items-center px-14 py-20">
+      <div id="contact" className="flex flex-col items-center px-14 py-20">
         <h1 className="heading-1">Get In Touch!</h1>
         <hr className="mt-5 h-1 w-10 bg-gold" />
         <div className="flex w-full justify-evenly pt-10">

@@ -10,7 +10,7 @@ export default function RootLayout({
   return (
     <main>
       <Navbar />
-      {children}
+      <div className="pt-14">{children}</div>
       <Footer backgroundColor="bg-light-gold" />
     </main>
   );
