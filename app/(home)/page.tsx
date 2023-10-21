@@ -65,8 +65,8 @@ export default function Home() {
         className="flex flex-col items-center space-y-10 px-14 py-20"
       >
         <h1 className="pb-6 text-4xl font-bold">Featured Books</h1>
-        <div className="flex w-full flex-wrap gap-5">
-          {books.slice(0, 4).map((book) => (
+        <div className="flex w-full flex-wrap justify-evenly gap-5">
+          {books.slice(0, 3).map((book) => (
             <Book key={book.id} book={book} />
           ))}
         </div>

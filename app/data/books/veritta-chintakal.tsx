@@ -40,7 +40,7 @@ const verittaChintakal: Book = {
   title: 'Veritta Chintakal',
   subtitle: 'Category : COLLECTIONS & SELECTED WORKS',
   overview:
-    'The book is a collection of essays on the great social reformer of Kerala and spiritual leader Sri. Narayana Guru published on the event of his birth centenary. It gives a rare insight into the person and activities of a visionary.',
+    "A collection of articles on Indian history and social history of Kerala written in Madhyamam Daily titled 'Sermons From The Mount'.  These were reflections triggered by contemporary events in the political space.",
   description: '',
   link: '',
   thumbnail: '/books-thumbnail/veritta-chintakal.jpg',

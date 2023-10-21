@@ -31,11 +31,11 @@ const Contents = () => {
 
 const ezhuthachanteKala: Book = {
   id: 'ezhuthachante-kala',
-  title: 'Ezhuthachante Kala : Chila Vyasabharatha Patanangalum',
+  title: 'Ezhuthachante Kala',
   shortTitle: 'Ezhuthachante Kala',
   subtitle: 'Category : COLLECTIONS & SELECTED WORKS',
   overview:
-    'The book is a collection of essays on the great social reformer of Kerala and spiritual leader Sri. Narayana Guru published on the event of his birth centenary. It gives a rare insight into the person and activities of a visionary.',
+    'Mahabharath has lend itself to several rewrites in all languages.  The book explores the magic of the translation that catapults Ezhuthachan as one of the greatest poets and the father of Malayalam literature.  The book also has some critical studies on the original epic itself.',
   description: '',
   link: 'https://dcbookstore.com/books/ezhuthachante-kala-chila-vyasabharatha-patanangalum',
   thumbnail: '/books-thumbnail/ezhuthachante-kala.jpg',

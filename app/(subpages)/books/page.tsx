@@ -21,7 +21,7 @@ const Books = () => {
           ...Books by PK Balakrishnan
         </h2>
       </div>
-      <div className="flex h-full w-full flex-wrap items-center gap-10 pt-10">
+      <div className="flex h-full w-full flex-wrap items-center justify-evenly gap-10 pt-10">
         {books.map((book) => (
           <Book key={book.id} book={book} />
         ))}
